@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Site</title>
     <style>
+      * {
+        /** 
+       The star means that every element including the body will get this style
+       box-sizing is affects how the height and width are calculated.
+       border-box means that element will only take width and height that we 
+       specify in our css. 
+
+       You can learn more about it here:  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+       */
+        box-sizing: border-box;
+      }
       body {
         background-color: red;
-        /** 
-         body is the element that we are styling.
-         The body tag and all elements inside the body tag visible by default.
-
-         background-color is the what we are controlling. 
-         red is value that we are setting the background color to.
-         Set the background color to any color you would like.
-
-         In vs code if you click on the color box you will get a color picker.
-         Please play around with this.
-        **/
       }
     </style>
   </head>
